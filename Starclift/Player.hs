@@ -1,4 +1,6 @@
-module Player where
+module Starclift.Player where
+
+import Starclift.Unit
 
 -- I'm thinking that a player needs to have minerals, whatever other resources
 -- we decide to include, and a personal tech tree that governs what they can
@@ -7,4 +9,5 @@ module Player where
 
 data Player = Player
   { playerMinerals :: Int
+  , playerUnits :: [Unit]
   } deriving stock (Show)

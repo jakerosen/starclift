@@ -31,5 +31,8 @@ executable starclift
   ghc-options: -Wall
   main-is: Main.hs
   other-modules:
-    Game
-    Player
+    Starclift.Game
+    Starclift.Player
+    Starclift.Unit
+    Starclift.Unit.Fighter
+    Starclift.Unit.Archer
