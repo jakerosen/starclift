@@ -9,5 +9,6 @@ import Starclift.Unit
 
 data Player = Player
   { playerMinerals :: Int
+  , playerGas :: Int
   , playerUnits :: [Unit]
   } deriving stock (Show)

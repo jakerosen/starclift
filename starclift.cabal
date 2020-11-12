@@ -34,5 +34,3 @@ executable starclift
     Starclift.Game
     Starclift.Player
     Starclift.Unit
-    Starclift.Unit.Fighter
-    Starclift.Unit.Archer
